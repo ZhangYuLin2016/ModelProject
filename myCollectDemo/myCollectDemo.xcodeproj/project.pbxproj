@@ -8,18 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		A491D6C960628B8E3AD29AC8 /* libPods-myCollectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D48BC94384FE923FA13E550 /* libPods-myCollectDemo.a */; };
+		DB04E6DC205F5B8400508F8C /* ZYLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6DB205F5B8400508F8C /* ZYLMainViewController.m */; };
+		DB04E6E0205F5C9000508F8C /* ZYLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6DF205F5C9000508F8C /* ZYLTools.m */; };
+		DB04E6E6205F632200508F8C /* ZYLSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6E5205F632200508F8C /* ZYLSingle.m */; };
+		DB04E6F2205F63A300508F8C /* LCLTabbarBtnViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6EA205F63A300508F8C /* LCLTabbarBtnViewController5.m */; };
+		DB04E6F3205F63A300508F8C /* LCLMyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6EE205F63A300508F8C /* LCLMyTabBar.m */; };
+		DB04E6F4205F63A300508F8C /* LCLTabBarBtnViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6F1205F63A300508F8C /* LCLTabBarBtnViewController3.m */; };
+		DB04E701205F63B800508F8C /* LCLTabbarViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6F7205F63B800508F8C /* LCLTabbarViewController2.m */; };
+		DB04E702205F63B800508F8C /* LCLTabBarViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6F9205F63B800508F8C /* LCLTabBarViewController5.m */; };
+		DB04E703205F63B800508F8C /* LCLTabBArViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6FB205F63B800508F8C /* LCLTabBArViewController4.m */; };
+		DB04E704205F63B800508F8C /* LCLTabbarViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E6FD205F63B800508F8C /* LCLTabbarViewController3.m */; };
+		DB04E705205F63B800508F8C /* LCLSidewaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E700205F63B800508F8C /* LCLSidewaysViewController.m */; };
+		DB04E70A205F63DA00508F8C /* LCLTabBarStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E707205F63D900508F8C /* LCLTabBarStyleViewController.m */; };
+		DB04E70B205F63DA00508F8C /* LCLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E708205F63DA00508F8C /* LCLDemoViewController.m */; };
+		DB04E711206097E800508F8C /* ZYLCVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E710206097E800508F8C /* ZYLCVFlowLayout.m */; };
+		DB04E7142060983700508F8C /* ZYLTextCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E7132060983700508F8C /* ZYLTextCollectionReusableView.m */; };
+		DB04E7172060987600508F8C /* ZYLCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E7162060987600508F8C /* ZYLCTViewController.m */; };
+		DB04E71D2060D11B00508F8C /* ZYLTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E71C2060D11B00508F8C /* ZYLTCViewController.m */; };
 		DBCC339D2047C4090050A60D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC339C2047C4090050A60D /* AppDelegate.m */; };
 		DBCC33A02047C4090050A60D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC339F2047C4090050A60D /* ViewController.m */; };
 		DBCC33A32047C4090050A60D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCC33A12047C4090050A60D /* Main.storyboard */; };
 		DBCC33A52047C4090050A60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCC33A42047C4090050A60D /* Assets.xcassets */; };
 		DBCC33A82047C4090050A60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCC33A62047C4090050A60D /* LaunchScreen.storyboard */; };
 		DBCC33AB2047C4090050A60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC33AA2047C4090050A60D /* main.m */; };
-		DBCC33B72047C8D60050A60D /* ZYLManiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC33B62047C8D60050A60D /* ZYLManiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EF15C210C1411B91C3C28B6 /* Pods-myCollectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCollectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-myCollectDemo/Pods-myCollectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8D48BC94384FE923FA13E550 /* libPods-myCollectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myCollectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB04E6DA205F5B8400508F8C /* ZYLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLMainViewController.h; sourceTree = "<group>"; };
+		DB04E6DB205F5B8400508F8C /* ZYLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLMainViewController.m; sourceTree = "<group>"; };
+		DB04E6DD205F5BED00508F8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DB04E6DE205F5C9000508F8C /* ZYLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLTools.h; sourceTree = "<group>"; };
+		DB04E6DF205F5C9000508F8C /* ZYLTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLTools.m; sourceTree = "<group>"; };
+		DB04E6E4205F632200508F8C /* ZYLSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLSingle.h; sourceTree = "<group>"; };
+		DB04E6E5205F632200508F8C /* ZYLSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLSingle.m; sourceTree = "<group>"; };
+		DB04E6EA205F63A300508F8C /* LCLTabbarBtnViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTabbarBtnViewController5.m; sourceTree = "<group>"; };
+		DB04E6EB205F63A300508F8C /* LCLTabbarBtnViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTabbarBtnViewController5.h; sourceTree = "<group>"; };
+		DB04E6ED205F63A300508F8C /* LCLMyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLMyTabBar.h; sourceTree = "<group>"; };
+		DB04E6EE205F63A300508F8C /* LCLMyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLMyTabBar.m; sourceTree = "<group>"; };
+		DB04E6F0205F63A300508F8C /* LCLTabBarBtnViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTabBarBtnViewController3.h; sourceTree = "<group>"; };
+		DB04E6F1205F63A300508F8C /* LCLTabBarBtnViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTabBarBtnViewController3.m; sourceTree = "<group>"; };
+		DB04E6F6205F63B800508F8C /* LCLTabBArViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTabBArViewController4.h; sourceTree = "<group>"; };
+		DB04E6F7205F63B800508F8C /* LCLTabbarViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTabbarViewController2.m; sourceTree = "<group>"; };
+		DB04E6F8205F63B800508F8C /* LCLTabbarViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTabbarViewController3.h; sourceTree = "<group>"; };
+		DB04E6F9205F63B800508F8C /* LCLTabBarViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTabBarViewController5.m; sourceTree = "<group>"; };
+		DB04E6FA205F63B800508F8C /* LCLTabbarViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTabbarViewController2.h; sourceTree = "<group>"; };
+		DB04E6FB205F63B800508F8C /* LCLTabBArViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTabBArViewController4.m; sourceTree = "<group>"; };
+		DB04E6FC205F63B800508F8C /* LCLTabBarViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTabBarViewController5.h; sourceTree = "<group>"; };
+		DB04E6FD205F63B800508F8C /* LCLTabbarViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTabbarViewController3.m; sourceTree = "<group>"; };
+		DB04E6FF205F63B800508F8C /* LCLSidewaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLSidewaysViewController.h; sourceTree = "<group>"; };
+		DB04E700205F63B800508F8C /* LCLSidewaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLSidewaysViewController.m; sourceTree = "<group>"; };
+		DB04E706205F63D900508F8C /* LCLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLDemoViewController.h; sourceTree = "<group>"; };
+		DB04E707205F63D900508F8C /* LCLTabBarStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLTabBarStyleViewController.m; sourceTree = "<group>"; };
+		DB04E708205F63DA00508F8C /* LCLDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLDemoViewController.m; sourceTree = "<group>"; };
+		DB04E709205F63DA00508F8C /* LCLTabBarStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLTabBarStyleViewController.h; sourceTree = "<group>"; };
+		DB04E70F206097E800508F8C /* ZYLCVFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLCVFlowLayout.h; sourceTree = "<group>"; };
+		DB04E710206097E800508F8C /* ZYLCVFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLCVFlowLayout.m; sourceTree = "<group>"; };
+		DB04E7122060983700508F8C /* ZYLTextCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLTextCollectionReusableView.h; sourceTree = "<group>"; };
+		DB04E7132060983700508F8C /* ZYLTextCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLTextCollectionReusableView.m; sourceTree = "<group>"; };
+		DB04E7152060987600508F8C /* ZYLCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLCTViewController.h; sourceTree = "<group>"; };
+		DB04E7162060987600508F8C /* ZYLCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLCTViewController.m; sourceTree = "<group>"; };
+		DB04E71B2060D11B00508F8C /* ZYLTCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLTCViewController.h; sourceTree = "<group>"; };
+		DB04E71C2060D11B00508F8C /* ZYLTCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLTCViewController.m; sourceTree = "<group>"; };
 		DBCC33982047C4080050A60D /* myCollectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCollectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCC339B2047C4090050A60D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBCC339C2047C4090050A60D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,8 +81,6 @@
 		DBCC33A72047C4090050A60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBCC33A92047C4090050A60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBCC33AA2047C4090050A60D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DBCC33B52047C8D60050A60D /* ZYLManiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLManiViewController.h; sourceTree = "<group>"; };
-		DBCC33B62047C8D60050A60D /* ZYLManiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLManiViewController.m; sourceTree = "<group>"; };
 		F7FFEF9E2BF5AEF9538AE90A /* Pods-myCollectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCollectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCollectDemo/Pods-myCollectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +103,134 @@
 				3EF15C210C1411B91C3C28B6 /* Pods-myCollectDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB04E6D8205F5B6800508F8C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6DA205F5B8400508F8C /* ZYLMainViewController.h */,
+				DB04E6DB205F5B8400508F8C /* ZYLMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DB04E6D9205F5B6F00508F8C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6DD205F5BED00508F8C /* PrefixHeader.pch */,
+				DB04E6DE205F5C9000508F8C /* ZYLTools.h */,
+				DB04E6DF205F5C9000508F8C /* ZYLTools.m */,
+				DB04E6E4205F632200508F8C /* ZYLSingle.h */,
+				DB04E6E5205F632200508F8C /* ZYLSingle.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DB04E6E1205F5E4900508F8C /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6E7205F636C00508F8C /* tabBar */,
+				DB04E6E3205F5E6400508F8C /* collectionView嵌套tableview置顶 */,
+				DB04E6E2205F5E5A00508F8C /* tableview嵌套collectionView置顶 */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		DB04E6E2205F5E5A00508F8C /* tableview嵌套collectionView置顶 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E71B2060D11B00508F8C /* ZYLTCViewController.h */,
+				DB04E71C2060D11B00508F8C /* ZYLTCViewController.m */,
+			);
+			path = "tableview嵌套collectionView置顶";
+			sourceTree = "<group>";
+		};
+		DB04E6E3205F5E6400508F8C /* collectionView嵌套tableview置顶 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E70F206097E800508F8C /* ZYLCVFlowLayout.h */,
+				DB04E710206097E800508F8C /* ZYLCVFlowLayout.m */,
+				DB04E7122060983700508F8C /* ZYLTextCollectionReusableView.h */,
+				DB04E7132060983700508F8C /* ZYLTextCollectionReusableView.m */,
+				DB04E7152060987600508F8C /* ZYLCTViewController.h */,
+				DB04E7162060987600508F8C /* ZYLCTViewController.m */,
+			);
+			path = "collectionView嵌套tableview置顶";
+			sourceTree = "<group>";
+		};
+		DB04E6E7205F636C00508F8C /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E706205F63D900508F8C /* LCLDemoViewController.h */,
+				DB04E708205F63DA00508F8C /* LCLDemoViewController.m */,
+				DB04E709205F63DA00508F8C /* LCLTabBarStyleViewController.h */,
+				DB04E707205F63D900508F8C /* LCLTabBarStyleViewController.m */,
+				DB04E6FE205F63B800508F8C /* 侧移 */,
+				DB04E6F5205F63B800508F8C /* 普通的 */,
+				DB04E6E8205F63A300508F8C /* 有一个按钮的 */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		DB04E6E8205F63A300508F8C /* 有一个按钮的 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6E9205F63A300508F8C /* 4+1个 */,
+				DB04E6EC205F63A300508F8C /* Common */,
+				DB04E6EF205F63A300508F8C /* 2+1个 */,
+			);
+			path = "有一个按钮的";
+			sourceTree = "<group>";
+		};
+		DB04E6E9205F63A300508F8C /* 4+1个 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6EB205F63A300508F8C /* LCLTabbarBtnViewController5.h */,
+				DB04E6EA205F63A300508F8C /* LCLTabbarBtnViewController5.m */,
+			);
+			path = "4+1个";
+			sourceTree = "<group>";
+		};
+		DB04E6EC205F63A300508F8C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6ED205F63A300508F8C /* LCLMyTabBar.h */,
+				DB04E6EE205F63A300508F8C /* LCLMyTabBar.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DB04E6EF205F63A300508F8C /* 2+1个 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6F0205F63A300508F8C /* LCLTabBarBtnViewController3.h */,
+				DB04E6F1205F63A300508F8C /* LCLTabBarBtnViewController3.m */,
+			);
+			path = "2+1个";
+			sourceTree = "<group>";
+		};
+		DB04E6F5205F63B800508F8C /* 普通的 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6FA205F63B800508F8C /* LCLTabbarViewController2.h */,
+				DB04E6F7205F63B800508F8C /* LCLTabbarViewController2.m */,
+				DB04E6F8205F63B800508F8C /* LCLTabbarViewController3.h */,
+				DB04E6FD205F63B800508F8C /* LCLTabbarViewController3.m */,
+				DB04E6F6205F63B800508F8C /* LCLTabBArViewController4.h */,
+				DB04E6FB205F63B800508F8C /* LCLTabBArViewController4.m */,
+				DB04E6FC205F63B800508F8C /* LCLTabBarViewController5.h */,
+				DB04E6F9205F63B800508F8C /* LCLTabBarViewController5.m */,
+			);
+			path = "普通的";
+			sourceTree = "<group>";
+		};
+		DB04E6FE205F63B800508F8C /* 侧移 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E6FF205F63B800508F8C /* LCLSidewaysViewController.h */,
+				DB04E700205F63B800508F8C /* LCLSidewaysViewController.m */,
+			);
+			path = "侧移";
 			sourceTree = "<group>";
 		};
 		DBCC338F2047C4080050A60D = {
@@ -94,34 +271,11 @@
 		DBCC33B12047C5DD0050A60D /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DBCC33B42047C5FD0050A60D /* subController */,
-				DBCC33B32047C5EC0050A60D /* Common */,
-				DBCC33B22047C5E40050A60D /* Main */,
+				DB04E6E1205F5E4900508F8C /* demo */,
+				DB04E6D9205F5B6F00508F8C /* Other */,
+				DB04E6D8205F5B6800508F8C /* Main */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		DBCC33B22047C5E40050A60D /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				DBCC33B52047C8D60050A60D /* ZYLManiViewController.h */,
-				DBCC33B62047C8D60050A60D /* ZYLManiViewController.m */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		DBCC33B32047C5EC0050A60D /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		DBCC33B42047C5FD0050A60D /* subController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = subController;
 			sourceTree = "<group>";
 		};
 		F75887B385F75FE63F6E7723 /* Frameworks */ = {
@@ -258,10 +412,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB04E704205F63B800508F8C /* LCLTabbarViewController3.m in Sources */,
+				DB04E70B205F63DA00508F8C /* LCLDemoViewController.m in Sources */,
+				DB04E7142060983700508F8C /* ZYLTextCollectionReusableView.m in Sources */,
+				DB04E711206097E800508F8C /* ZYLCVFlowLayout.m in Sources */,
+				DB04E6F2205F63A300508F8C /* LCLTabbarBtnViewController5.m in Sources */,
 				DBCC33A02047C4090050A60D /* ViewController.m in Sources */,
-				DBCC33B72047C8D60050A60D /* ZYLManiViewController.m in Sources */,
+				DB04E6DC205F5B8400508F8C /* ZYLMainViewController.m in Sources */,
 				DBCC33AB2047C4090050A60D /* main.m in Sources */,
+				DB04E70A205F63DA00508F8C /* LCLTabBarStyleViewController.m in Sources */,
+				DB04E7172060987600508F8C /* ZYLCTViewController.m in Sources */,
+				DB04E705205F63B800508F8C /* LCLSidewaysViewController.m in Sources */,
+				DB04E6E6205F632200508F8C /* ZYLSingle.m in Sources */,
+				DB04E701205F63B800508F8C /* LCLTabbarViewController2.m in Sources */,
+				DB04E71D2060D11B00508F8C /* ZYLTCViewController.m in Sources */,
+				DB04E6F4205F63A300508F8C /* LCLTabBarBtnViewController3.m in Sources */,
+				DB04E702205F63B800508F8C /* LCLTabBarViewController5.m in Sources */,
+				DB04E6F3205F63A300508F8C /* LCLMyTabBar.m in Sources */,
 				DBCC339D2047C4090050A60D /* AppDelegate.m in Sources */,
+				DB04E6E0205F5C9000508F8C /* ZYLTools.m in Sources */,
+				DB04E703205F63B800508F8C /* LCLTabBArViewController4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +568,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NYML56J84R;
+				GCC_PREFIX_HEADER = /Users/zhangyulin/ModelProject/myCollectDemo/myCollectDemo/Class/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = myCollectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbweipai.myCollectDemo;
@@ -413,6 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NYML56J84R;
+				GCC_PREFIX_HEADER = /Users/zhangyulin/ModelProject/myCollectDemo/myCollectDemo/Class/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = myCollectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbweipai.myCollectDemo;

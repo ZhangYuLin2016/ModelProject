@@ -1,18 +1,18 @@
 //
-//  ZYLManiViewController.m
+//  ZYLTCViewController.m
 //  myCollectDemo
 //
-//  Created by 张玉琳 on 2018/3/1.
+//  Created by 张玉琳 on 2018/3/20.
 //  Copyright © 2018年 zyl. All rights reserved.
 //
 
-#import "ZYLManiViewController.h"
+#import "ZYLTCViewController.h"
 
-@interface ZYLManiViewController ()
+@interface ZYLTCViewController ()
 
 @end
 
-@implementation ZYLManiViewController
+@implementation ZYLTCViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

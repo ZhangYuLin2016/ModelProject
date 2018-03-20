@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  myCollectDemo
+//
+//  Created by 张玉琳 on 2018/3/19.
+//  Copyright © 2018年 zyl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZYLSingle.h"
+#import "ZYLTools.h"
+
+
+// ------------------- 尺寸 -------------------
+// 屏幕尺寸
+#define kScreenRect [[UIScreen mainScreen] bounds]
+
+// 屏幕宽度
+#define kScreenWidth kScreenRect.size.width
+
+// 屏幕高度
+#define kScreenHeight kScreenRect.size.height
+
+// 图片
+#define kImageNamed(imageName) [UIImage imageNamed:imageName]
+
+// ------------------- 颜色 -------------------
+#define kClearColor [UIColor clearColor]
+#define kWhiteColor [UIColor whiteColor]
+#define kBlackColor [UIColor blackColor]
+#define kRedColor [UIColor redColor]
+#define kOrangeColor [UIColor orangeColor]
+#define kYellowColor [UIColor yellowColor]
+#define kGreenColor [UIColor greenColor]
+#define kCyanColor [UIColor cyanColor]
+#define kBlueColor [UIColor blueColor]
+#define kPurpleColor [UIColor purpleColor]
+
+// 16进制颜色转换
+#define kColor(s) [UIColor colorWithRed:(((s & 0xFF0000) >> 16))/255.0 green:(((s &0xFF00) >>8))/255.0 blue:((s &0xFF))/255.0 alpha:1.0]
+
+// 字体大小
+#define kFont(s) [UIFont fontWithName:@"PingFang-SC-Medium" size:s]
+
+
+#endif /* PrefixHeader_pch */
