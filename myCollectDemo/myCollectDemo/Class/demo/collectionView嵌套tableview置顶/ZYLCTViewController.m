@@ -23,6 +23,8 @@ static NSString *footerID = @"footerID";
 
 -(instancetype)init{
     ZYLCVFlowLayout *layout = [ZYLCVFlowLayout new];
+//    UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
+
     layout.itemSize = CGSizeMake(100, 100);
     layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
     layout.naviHeight = 44.0;
@@ -78,8 +80,7 @@ static NSString *footerID = @"footerID";
     return nil;
 }
 
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section
-{
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
     if (section>0) {
         return CGSizeMake(0, 44);
     }

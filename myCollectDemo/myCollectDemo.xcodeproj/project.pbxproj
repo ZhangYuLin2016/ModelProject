@@ -25,12 +25,19 @@
 		DB04E7142060983700508F8C /* ZYLTextCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E7132060983700508F8C /* ZYLTextCollectionReusableView.m */; };
 		DB04E7172060987600508F8C /* ZYLCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E7162060987600508F8C /* ZYLCTViewController.m */; };
 		DB04E71D2060D11B00508F8C /* ZYLTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E71C2060D11B00508F8C /* ZYLTCViewController.m */; };
+		DB04E72220623A0800508F8C /* ZYLKeyStyleOne.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E72120623A0800508F8C /* ZYLKeyStyleOne.m */; };
+		DB04E72520623BC600508F8C /* ZYLKeyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E72420623BC600508F8C /* ZYLKeyTableViewController.m */; };
+		DB04E72A206241A000508F8C /* ZYLYanZhengMaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E729206241A000508F8C /* ZYLYanZhengMaViewController.m */; };
+		DB04E7302062425000508F8C /* ZYLTxtVCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E72F2062425000508F8C /* ZYLTxtVCodeView.m */; };
+		DB04E73420624B4700508F8C /* ZYLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E73320624B4700508F8C /* ZYLLoginViewController.m */; };
+		DB04E73820624C5200508F8C /* ZYLAnimTFView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB04E73720624C5200508F8C /* ZYLAnimTFView.m */; };
 		DBCC339D2047C4090050A60D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC339C2047C4090050A60D /* AppDelegate.m */; };
 		DBCC33A02047C4090050A60D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC339F2047C4090050A60D /* ViewController.m */; };
 		DBCC33A32047C4090050A60D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCC33A12047C4090050A60D /* Main.storyboard */; };
 		DBCC33A52047C4090050A60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCC33A42047C4090050A60D /* Assets.xcassets */; };
 		DBCC33A82047C4090050A60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCC33A62047C4090050A60D /* LaunchScreen.storyboard */; };
 		DBCC33AB2047C4090050A60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCC33AA2047C4090050A60D /* main.m */; };
+		DBF1A3882065E01C00C1714A /* ZYLQianDaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF1A3872065E01C00C1714A /* ZYLQianDaoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +78,18 @@
 		DB04E7162060987600508F8C /* ZYLCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLCTViewController.m; sourceTree = "<group>"; };
 		DB04E71B2060D11B00508F8C /* ZYLTCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLTCViewController.h; sourceTree = "<group>"; };
 		DB04E71C2060D11B00508F8C /* ZYLTCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLTCViewController.m; sourceTree = "<group>"; };
+		DB04E72020623A0800508F8C /* ZYLKeyStyleOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLKeyStyleOne.h; sourceTree = "<group>"; };
+		DB04E72120623A0800508F8C /* ZYLKeyStyleOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLKeyStyleOne.m; sourceTree = "<group>"; };
+		DB04E72320623BC600508F8C /* ZYLKeyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLKeyTableViewController.h; sourceTree = "<group>"; };
+		DB04E72420623BC600508F8C /* ZYLKeyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLKeyTableViewController.m; sourceTree = "<group>"; };
+		DB04E728206241A000508F8C /* ZYLYanZhengMaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLYanZhengMaViewController.h; sourceTree = "<group>"; };
+		DB04E729206241A000508F8C /* ZYLYanZhengMaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLYanZhengMaViewController.m; sourceTree = "<group>"; };
+		DB04E72E2062425000508F8C /* ZYLTxtVCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLTxtVCodeView.h; sourceTree = "<group>"; };
+		DB04E72F2062425000508F8C /* ZYLTxtVCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLTxtVCodeView.m; sourceTree = "<group>"; };
+		DB04E73220624B4700508F8C /* ZYLLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLLoginViewController.h; sourceTree = "<group>"; };
+		DB04E73320624B4700508F8C /* ZYLLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLLoginViewController.m; sourceTree = "<group>"; };
+		DB04E73620624C5200508F8C /* ZYLAnimTFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLAnimTFView.h; sourceTree = "<group>"; };
+		DB04E73720624C5200508F8C /* ZYLAnimTFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLAnimTFView.m; sourceTree = "<group>"; };
 		DBCC33982047C4080050A60D /* myCollectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCollectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCC339B2047C4090050A60D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBCC339C2047C4090050A60D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +100,8 @@
 		DBCC33A72047C4090050A60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBCC33A92047C4090050A60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBCC33AA2047C4090050A60D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF1A3862065E01C00C1714A /* ZYLQianDaoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLQianDaoViewController.h; sourceTree = "<group>"; };
+		DBF1A3872065E01C00C1714A /* ZYLQianDaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLQianDaoViewController.m; sourceTree = "<group>"; };
 		F7FFEF9E2BF5AEF9538AE90A /* Pods-myCollectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCollectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCollectDemo/Pods-myCollectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +150,10 @@
 		DB04E6E1205F5E4900508F8C /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				DBF1A3852065DFE600C1714A /* 签到 */,
+				DB04E73120624B3000508F8C /* 输入框类型 */,
+				DB04E7272062417A00508F8C /* 验证码系列 */,
+				DB04E71F2062398000508F8C /* 自定义键盘 */,
 				DB04E6E7205F636C00508F8C /* tabBar */,
 				DB04E6E3205F5E6400508F8C /* collectionView嵌套tableview置顶 */,
 				DB04E6E2205F5E5A00508F8C /* tableview嵌套collectionView置顶 */,
@@ -165,6 +190,7 @@
 				DB04E708205F63DA00508F8C /* LCLDemoViewController.m */,
 				DB04E709205F63DA00508F8C /* LCLTabBarStyleViewController.h */,
 				DB04E707205F63D900508F8C /* LCLTabBarStyleViewController.m */,
+				DBF1A3892065E10A00C1714A /* 向上滑动_tabbar隐藏 */,
 				DB04E6FE205F63B800508F8C /* 侧移 */,
 				DB04E6F5205F63B800508F8C /* 普通的 */,
 				DB04E6E8205F63A300508F8C /* 有一个按钮的 */,
@@ -233,6 +259,79 @@
 			path = "侧移";
 			sourceTree = "<group>";
 		};
+		DB04E71F2062398000508F8C /* 自定义键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E7262062402100508F8C /* 车牌号类型的键盘 */,
+				DB04E72320623BC600508F8C /* ZYLKeyTableViewController.h */,
+				DB04E72420623BC600508F8C /* ZYLKeyTableViewController.m */,
+			);
+			path = "自定义键盘";
+			sourceTree = "<group>";
+		};
+		DB04E7262062402100508F8C /* 车牌号类型的键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E72020623A0800508F8C /* ZYLKeyStyleOne.h */,
+				DB04E72120623A0800508F8C /* ZYLKeyStyleOne.m */,
+			);
+			path = "车牌号类型的键盘";
+			sourceTree = "<group>";
+		};
+		DB04E7272062417A00508F8C /* 验证码系列 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E72D2062420C00508F8C /* 发送验证码-倒计时验证 */,
+				DB04E72C206241E900508F8C /* 滑动图片到指定位置验证 */,
+				DB04E72B206241C200508F8C /* 生成随机汉字-按顺序点击验证 */,
+				DB04E728206241A000508F8C /* ZYLYanZhengMaViewController.h */,
+				DB04E729206241A000508F8C /* ZYLYanZhengMaViewController.m */,
+			);
+			path = "验证码系列";
+			sourceTree = "<group>";
+		};
+		DB04E72B206241C200508F8C /* 生成随机汉字-按顺序点击验证 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E72E2062425000508F8C /* ZYLTxtVCodeView.h */,
+				DB04E72F2062425000508F8C /* ZYLTxtVCodeView.m */,
+			);
+			path = "生成随机汉字-按顺序点击验证";
+			sourceTree = "<group>";
+		};
+		DB04E72C206241E900508F8C /* 滑动图片到指定位置验证 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "滑动图片到指定位置验证";
+			sourceTree = "<group>";
+		};
+		DB04E72D2062420C00508F8C /* 发送验证码-倒计时验证 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "发送验证码-倒计时验证";
+			sourceTree = "<group>";
+		};
+		DB04E73120624B3000508F8C /* 输入框类型 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E73520624B8400508F8C /* 输入框类型style1 */,
+				DB04E73220624B4700508F8C /* ZYLLoginViewController.h */,
+				DB04E73320624B4700508F8C /* ZYLLoginViewController.m */,
+			);
+			path = "输入框类型";
+			sourceTree = "<group>";
+		};
+		DB04E73520624B8400508F8C /* 输入框类型style1 */ = {
+			isa = PBXGroup;
+			children = (
+				DB04E73620624C5200508F8C /* ZYLAnimTFView.h */,
+				DB04E73720624C5200508F8C /* ZYLAnimTFView.m */,
+			);
+			path = "输入框类型style1";
+			sourceTree = "<group>";
+		};
 		DBCC338F2047C4080050A60D = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +375,22 @@
 				DB04E6D8205F5B6800508F8C /* Main */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		DBF1A3852065DFE600C1714A /* 签到 */ = {
+			isa = PBXGroup;
+			children = (
+				DBF1A3862065E01C00C1714A /* ZYLQianDaoViewController.h */,
+				DBF1A3872065E01C00C1714A /* ZYLQianDaoViewController.m */,
+			);
+			path = "签到";
+			sourceTree = "<group>";
+		};
+		DBF1A3892065E10A00C1714A /* 向上滑动_tabbar隐藏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "向上滑动_tabbar隐藏";
 			sourceTree = "<group>";
 		};
 		F75887B385F75FE63F6E7723 /* Frameworks */ = {
@@ -413,7 +528,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB04E704205F63B800508F8C /* LCLTabbarViewController3.m in Sources */,
+				DBF1A3882065E01C00C1714A /* ZYLQianDaoViewController.m in Sources */,
+				DB04E72520623BC600508F8C /* ZYLKeyTableViewController.m in Sources */,
 				DB04E70B205F63DA00508F8C /* LCLDemoViewController.m in Sources */,
+				DB04E73820624C5200508F8C /* ZYLAnimTFView.m in Sources */,
 				DB04E7142060983700508F8C /* ZYLTextCollectionReusableView.m in Sources */,
 				DB04E711206097E800508F8C /* ZYLCVFlowLayout.m in Sources */,
 				DB04E6F2205F63A300508F8C /* LCLTabbarBtnViewController5.m in Sources */,
@@ -423,13 +541,17 @@
 				DB04E70A205F63DA00508F8C /* LCLTabBarStyleViewController.m in Sources */,
 				DB04E7172060987600508F8C /* ZYLCTViewController.m in Sources */,
 				DB04E705205F63B800508F8C /* LCLSidewaysViewController.m in Sources */,
+				DB04E72A206241A000508F8C /* ZYLYanZhengMaViewController.m in Sources */,
 				DB04E6E6205F632200508F8C /* ZYLSingle.m in Sources */,
 				DB04E701205F63B800508F8C /* LCLTabbarViewController2.m in Sources */,
+				DB04E7302062425000508F8C /* ZYLTxtVCodeView.m in Sources */,
 				DB04E71D2060D11B00508F8C /* ZYLTCViewController.m in Sources */,
 				DB04E6F4205F63A300508F8C /* LCLTabBarBtnViewController3.m in Sources */,
 				DB04E702205F63B800508F8C /* LCLTabBarViewController5.m in Sources */,
 				DB04E6F3205F63A300508F8C /* LCLMyTabBar.m in Sources */,
+				DB04E72220623A0800508F8C /* ZYLKeyStyleOne.m in Sources */,
 				DBCC339D2047C4090050A60D /* AppDelegate.m in Sources */,
+				DB04E73420624B4700508F8C /* ZYLLoginViewController.m in Sources */,
 				DB04E6E0205F5C9000508F8C /* ZYLTools.m in Sources */,
 				DB04E703205F63B800508F8C /* LCLTabBArViewController4.m in Sources */,
 			);

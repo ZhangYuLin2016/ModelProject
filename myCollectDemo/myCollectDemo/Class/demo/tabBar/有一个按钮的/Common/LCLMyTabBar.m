@@ -188,8 +188,8 @@
         self.backgroundColor = [UIColor whiteColor];
         
         UIButton *plusBtn = [[UIButton alloc] init];
-        [plusBtn setBackgroundImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
-        [plusBtn setBackgroundImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateHighlighted];
+        [plusBtn setBackgroundImage:[UIImage imageNamed:@"tabsend"] forState:UIControlStateNormal];
+        [plusBtn setBackgroundImage:[UIImage imageNamed:@"tabsend"] forState:UIControlStateHighlighted];
         
         self.plusBtn = plusBtn;
         

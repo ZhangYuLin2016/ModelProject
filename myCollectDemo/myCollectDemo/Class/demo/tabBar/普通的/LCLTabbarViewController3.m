@@ -30,8 +30,8 @@
 
 -(void)customTabbarItem{
     NSArray *titles = @[@"首页",@"分类",@"我的"];
-    NSArray *normalImages = @[@"home_normal", @"home_normal",@"home_normal"];
-    NSArray *selectImages = @[@"home_disabled",@"home_disabled",@"home_disabled"];
+    NSArray *normalImages = @[@"tabno", @"tabno",@"tabno"];
+    NSArray *selectImages = @[@"tabse",@"tabse",@"tabse"];
     self.viewControllers = @[
                              [LCLDemoViewController new],
                              [LCLDemoViewController new],

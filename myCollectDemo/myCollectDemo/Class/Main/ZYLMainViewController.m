@@ -7,10 +7,13 @@
 //
 
 #import "ZYLMainViewController.h"
-#import "ZYLCTViewController.h"
-#import "ZYLTCViewController.h"
-
-#import "LCLTabBarStyleViewController.h"
+#import "ZYLCTViewController.h"//collectionView嵌套tableview置顶
+#import "ZYLTCViewController.h"//tableview嵌套collectionView置顶
+#import "LCLTabBarStyleViewController.h"//tabbar style
+#import "ZYLKeyTableViewController.h"//键盘类型
+#import "ZYLYanZhengMaViewController.h"//验证码系列
+#import "ZYLLoginViewController.h"//输入框类型
+#import "ZYLQianDaoViewController.h"//签到
 
 @interface ZYLMainViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSArray *titleArr;
@@ -24,7 +27,7 @@
     [self.view addSubview:tableView];
     tableView.dataSource = self;
     tableView.delegate = self;
-    _titleArr = @[@"tableview嵌套collectionView置顶",@"collectionView嵌套tableview置顶",@"tabbar style"];
+    _titleArr = @[@"tableview嵌套collectionView置顶",@"collectionView嵌套tableview置顶",@"tabbar style",@"键盘类型",@"验证码系列",@"输入框类型",@"签到"];
 
 }
 
@@ -50,7 +53,20 @@
         
     }else if (indexPath.row==2){
         [self.navigationController pushViewController:[LCLTabBarStyleViewController new] animated:YES];
+    }else if (indexPath.row == 3){
+        [self.navigationController pushViewController:[ZYLKeyTableViewController new] animated:YES];
+    }else if (indexPath.row == 4){
+        [self.navigationController pushViewController:[ZYLYanZhengMaViewController new] animated:YES];
+
+    }else if (indexPath.row == 5){
+        [self.navigationController pushViewController:[ZYLLoginViewController new] animated:YES];
+        
+    }else if (indexPath.row == 6){
+        [self.navigationController pushViewController:[ZYLQianDaoViewController new] animated:YES];
+        
     }
+    
+    
     
 }
 @end

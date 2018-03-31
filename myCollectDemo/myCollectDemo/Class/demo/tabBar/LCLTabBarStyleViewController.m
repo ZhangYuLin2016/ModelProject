@@ -74,7 +74,8 @@
                  
                  */
                 @"2+1个按钮",
-                @"4+1个按钮"];
+                @"4+1个按钮",
+                @"向上滑动_tabbar隐藏"];
     
     _dataSource = @[[LCLSidewaysViewController class],
                     
@@ -84,7 +85,9 @@
                     [LCLTabBarViewController5 class],
 
                     [LCLTabBarBtnViewController3 class],
+                    [LCLTabbarBtnViewController5 class],
                     [LCLTabbarBtnViewController5 class]
+
                     ];
 
 }

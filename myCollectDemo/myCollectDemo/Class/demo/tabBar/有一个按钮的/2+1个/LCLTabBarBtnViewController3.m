@@ -38,8 +38,8 @@
 - (void)tabBarView{
     
     NSArray *titles = @[@"首页",@"我的"];
-    NSArray *normalImages = @[@"home_normal", @"home_normal"];
-    NSArray *selectImages = @[@"home_disabled",@"home_disabled"];
+    NSArray *normalImages = @[@"tabno", @"tabno"];
+    NSArray *selectImages = @[@"tabse",@"tabse"];
     self.viewControllers = @[
                              [LCLDemoViewController new],
                              [LCLDemoViewController new]
